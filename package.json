@@ -1,6 +1,6 @@
 {
   "name": "servergo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "make web server in current directory",
   "bin": {
     "serverhere": "./bin/servergo"
@@ -13,7 +13,7 @@
     "url": "git://github.com/hpze2000/servergo.git"
   },
   "keywords": [
-    "serverhere",
+    "servergo",
     "web server",
     "server"
   ],
