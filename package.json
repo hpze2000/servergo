@@ -1,6 +1,6 @@
 {
   "name": "servergo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "make web server in current directory",
   "bin": {
     "serverhere": "./bin/servergo"
