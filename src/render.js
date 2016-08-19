@@ -5,7 +5,7 @@ function getResponseInfo(routeResult) {
     return {
         "status": routeResult.status,
         "contentType": getContentType(routeResult.filePath),
-        "content": fs.readFileSync(routeResult.filePath)
+        "content": routeResult.content ? routeResult.content : fs.readFileSync(routeResult.filePath)
     };
 }
 
