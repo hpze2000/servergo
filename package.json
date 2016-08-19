@@ -1,0 +1,29 @@
+{
+  "name": "servergo",
+  "version": "1.0.0",
+  "description": "make web server in current directory",
+  "bin": {
+    "serverhere": "./bin/servergo"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hpze2000/servergo.git"
+  },
+  "keywords": [
+    "serverhere",
+    "web server",
+    "server"
+  ],
+  "author": "johnson zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpze2000/servergo/issues"
+  },
+  "homepage": "https://github.com/hpze2000/servergo#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
