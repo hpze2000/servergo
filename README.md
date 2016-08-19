@@ -15,15 +15,15 @@ $ servergo
 
 ```shell
 #create a web server with port 5000
-$ webhere -p 5000
+$ servergo -p 5000
 ```
 
 ```shell
 #create a web server in the /home directory with port 5000
-$ webhere -p 5000 -d /home
+$ servergo -p 5000 -d /home
 ```
 
 ```shell
 #don't open browser
-$ webhere -s
+$ servergo -s
 ```
