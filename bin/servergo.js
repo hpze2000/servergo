@@ -1,4 +1,5 @@
 var server = require("../src/server");
+var package = require("../package");
 
 var argv = require("minimist")(process.argv.slice(2), {
   alias: {
@@ -15,6 +16,11 @@ var argv = require("minimist")(process.argv.slice(2), {
     'dir': process.cwd()
   }
 });
+
+if (argv.V) {
+  console.log("Version: " + package.version);  
+  process.exit(0);
+}
 
 if (argv.help) {
   console.log("Usage:");
