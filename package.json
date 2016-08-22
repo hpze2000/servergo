@@ -1,9 +1,9 @@
 {
   "name": "servergo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "make web server in current directory",
   "bin": {
-    "serverhere": "./bin/servergo"
+    "serverhere": "./bin/servergo.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
